@@ -1,0 +1,218 @@
+.container{
+    margin-top: 5%;
+}
+.primary-color{
+    color: #2F281E;
+    font-style: normal;
+    line-height: normal;
+}
+.secondary-color{
+    color: #544837;
+    font-style: normal;
+    line-height: normal;
+}
+.btns{
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+    background-color:  #F90;
+     border: 1px solid #BCD0E5;
+}
+.header-title{
+font-size: 44px;
+font-weight: 700;
+line-height: 54px;
+}
+.header-p{
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+margin-top: 5%;
+}
+.header-btn{
+width: 175px;
+height: 53px;
+margin-top: 5%;
+}
+.arrow-header{
+    margin-left: 3%;   
+}
+.link-header{
+ color: #F90;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+margin-left: 3%;
+}
+.btn-link-header{
+    display: flex;
+    align-items: baseline;
+}
+/* navbar */
+.brand{
+    display: flex;
+    width: 20%;
+    margin-left: 10%;
+    align-items: baseline;
+}
+.navbar{
+    margin-top: 3%;
+}
+.logo-name{
+    margin-left: 3%;
+    padding-top: 2;
+}
+.navbar-nav{
+     margin-left: 350px;     
+}
+.nav-item{
+    margin-left: 15px;
+}
+.nav-buttons{
+    display: flex;
+    /* margin-left: 10%; */
+}
+.signIn-btn{
+    width: 102px;
+    height: 46px;
+    color: #173A56;
+    background-color: white;
+}
+.signUp-btn{
+    width: 102px;
+    height: 46px;
+    margin-left: 10%;
+}
+/* section 1 */
+.section-1-header{
+width: 35%;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+margin-left: 30%;
+margin-bottom: 5%;
+}
+.vector-img1{
+  position: absolute;
+  margin-left: -4%;
+  background: url("imgs/Bg.png") ;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.section1-flex{
+    display: flex;
+    flex-direction: column;
+}
+.dot-img{
+width: 50px;
+height: 50px;
+margin-bottom: 5%;
+}
+.section1-titles{
+font-size: 22px;
+font-weight: 600;
+}
+.section1-p{
+font-size: 16px;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+}
+.signUpNow-btn{
+    width: 175px;
+height: 53px;
+   margin-top: 4%;
+    margin-left: 45%;
+    margin-bottom: 10%;
+}
+/* section 2 */
+.section2-titles{
+font-size: 16px;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+}
+/* section 3 */
+.section3-checkbox{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:baseline;
+    margin-top: 5%;
+}
+.flex-img{
+    flex-shrink: 0;
+    margin-right: 5%;
+}
+/* section 6 */
+.cards-header{
+    margin-left: 5%;
+}
+ .cards{
+    width: 700px;
+    height: 227px;
+} 
+.card-img{
+  object-fit: contain;
+}
+.cards-nav{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.card-title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.span-ab{
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+}
+.card-text{
+font-size: 24px;
+font-weight: 700;
+line-height: 34px; /* 141.667% */
+}
+/* footer */
+.line{
+width: 1109px;
+height: 1px;
+margin-left: 5%;
+flex-shrink: 0;
+background: rgba(188, 208, 229, 0.50);
+margin-bottom: 7%;
+}
+li{
+    list-style: none;
+}
+.footer-logo{
+    margin-left: 5%;
+    display: flex;
+    width: 20%;
+    align-items: baseline;
+}
+.footer-list{
+margin-top: 20%;
+line-height: 35px;
+}
+.footer-input{
+margin-top: 40%;
+width: 325px;
+height: 48px;
+border-radius: 4px;
+border: 1px solid #BCD0E5;
+background: #FFF;
+}
+.footer-btn{
+margin-top: 4%;
+width: 131px;
+height: 39px;
+}
+.footerEl{
+    margin-left: 3%;
+}
